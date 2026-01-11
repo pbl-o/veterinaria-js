@@ -33,5 +33,16 @@ const registrar = (nombre, edad, tipo, color, enfermedad) =>{
 
 }
 
+const leer = () =>{
+    let listaRead = JSON.parse(fs.readFileSync('citas.json', 'utf-8'))
+    console.log(listaRead)
+    console.log('\n Lectura de Fichero Existosa')
+}
+
+const vaciarFichero = () =>{
+    fs.writeFileSync('citas.json', [])
+    console.log('Fichero vaciado \n')
+    leer()
+}
 
 module.exports = {registrar, leer, vaciarFichero}
