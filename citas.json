@@ -1,1 +1,9 @@
-[]
+[
+ {
+  "nombre": "pancho",
+  "edad": "2",
+  "tipo": "perro",
+  "color": "verde",
+  "enfermedad": "tos"
+ }
+]
