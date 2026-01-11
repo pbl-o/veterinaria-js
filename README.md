@@ -1,6 +1,9 @@
 # Veterinaria JS
 
-Este proyecto contempla una aplicación backend que registra las horas de atención en una veterinaria. (type: commonjs)
+Este proyecto contempla una aplicación backend que registra las horas de atención en una veterinaria. 
+
+(type: commonjs)
+(type: module) version at"https://github.com/pbl-o/veterinariajses6"
 
 ## Tecnologías Empleadas
 
