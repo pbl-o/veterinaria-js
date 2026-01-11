@@ -20,7 +20,7 @@ const enfermedadCita =args[5]
 
 //Operaciones 
 if(
-    operacion = 'registrar'
+    operacion === 'registrar'
 ){
     registrar(nombreCita, edadCita, tipoCita, colorCita, enfermedadCita)
 }

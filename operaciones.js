@@ -6,7 +6,8 @@ const registrar = (nombre, edad, tipo, color, enfermedad) =>{
 
     try{
         //Se revisa si existe el archivo previamente:
-        if(fs.existsSync('citas,json')){
+        if(fs.existsSync('citas.json')){
+            
             console.log('Fichero Encontrado')
             //Si el archivo existe se utiliza como template
             lista = JSON.parse(fs.readFileSync('citas.json', 'utf-8'))
@@ -25,6 +26,7 @@ const registrar = (nombre, edad, tipo, color, enfermedad) =>{
         }
         //Se crea el archivo json con los datos ingresados a modo de template.
         fs.writeFileSync('citas.json', JSON.stringify(lista, null, lista.length))
+        console.log('Sus datos han sido ingresados de manera exitosa');
 
     }catch(error){
         //Otros errores serán identificados y presentados en consola. 
@@ -40,7 +42,7 @@ const leer = () =>{
 }
 
 const vaciarFichero = () =>{
-    fs.writeFileSync('citas.json', [])
+    fs.writeFileSync('citas.json', '[]')
     console.log('Fichero vaciado \n')
     leer()
 }
