@@ -4,7 +4,7 @@ Este proyecto contempla una aplicación backend que registra las horas de atenci
 
 - (type: commonjs) 
 
-- module version at"https://github.com/pbl-o/veterinariajses6"
+- module version at "https://github.com/pbl-o/veterinariajses6"
 
 ## Tecnologías Empleadas
 
