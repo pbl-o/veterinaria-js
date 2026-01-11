@@ -1,4 +1,4 @@
-Veterinaria JS
+# Veterinaria JS
 
 Este proyecto contempla una aplicación backend que registra las horas de atención en una veterinaria.
 
