@@ -54,4 +54,4 @@ node index.js borrar
 
 (Esta función está abierta para uso público asumiendo que esta aplicación es para efectos de estudio, en un contexto real estaría restringida a usuarios selectos sob autenticación y autorización)
 
-- Para Efectos de la evaluación se ha creado un fichero json manualmente, no obstante se puede autogenerar en caso de ausencia. Para esto se puede probar borrar el fichero json e intentar registrar una mascota nuevamente.
+- Para Efectos de la evaluación se ha creado un fichero json manualmente, no obstante se puede autogenerar en caso de ausencia. Para esto se puede probar borrar el fichero json (citas.json) e intentar registrar los datos de una mascota nuevamente.
